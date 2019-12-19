@@ -10,9 +10,13 @@
       <p>Welcome to <%= title %></p>
 
     <div class= 'ButtonBox'>
-      <button class="Button">네이버 실검</button>
-      <button class="Button">로또 통계</button>
+      <form action="/naver" method="get">
+        <button type='submit' class="Button">네이버 실검</button>
+      </form>
+      <form action="/lotto" method="get">
+        <button type='submit' class="Button">로또 통계</button>
+      </form>
     </div>
-    <iframe src="./toto.ejs" frameborder="0"></iframe>
+    <!-- <iframe src="./toto.ejs" frameborder="0"></iframe> -->
   </body>
 </html>
