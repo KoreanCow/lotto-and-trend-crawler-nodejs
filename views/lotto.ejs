@@ -1,0 +1,28 @@
+!<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+      <form action="/">
+        <button type="submit">메인 메뉴</button>
+      </form>
+
+      <ol>
+          <% for(let i = 0; i < week_arr.length; i++){%>
+            <li>
+              <%= week_arr[i] %> 
+            </li>
+            <%}%>
+      </ol>
+      <ol>
+          <% for(let i = 0; i < Choiced_Number; i++){%>
+            <li>
+              <%= Choiced_Number[i].number %>
+            </li>
+            <%}%>
+      </ol>
+
+    <!-- <iframe src="./toto.ejs" frameborder="0"></iframe> -->
+  </body>
+</html>
