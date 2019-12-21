@@ -6,3 +6,22 @@ body {
 a {
   color: #00B7FF;
 }
+
+.bx{
+  width: 50px;
+  height: 30px;
+  background-color: gainsboro;
+
+}
+.bbx{
+  height: 80%;
+  background-color:whitesmoke;
+}
+
+#numbox{
+  width: 500px;
+  height: 280px;
+
+  display: flex;
+  flex-wrap: wrap;
+}

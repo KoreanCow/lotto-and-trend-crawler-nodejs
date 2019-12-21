@@ -16,7 +16,16 @@
             <%}%>
       </ul>
 
-      <script>
-      </script>
+      <div id='numbox'>
+
+        <% for(let i = 0; i < checkNum.length - 1; i++){%>
+          <div class='bx'>
+              <%= i+1 %>
+            <div class='bbx'>
+              <strong><%= checkNum[i] %>번</strong>
+            </div>
+          </div>
+          <%}%>
+      </div>
   </body>
 </html>
