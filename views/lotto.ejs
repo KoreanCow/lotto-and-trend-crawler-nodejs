@@ -1,4 +1,4 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <link rel='stylesheet' href='/stylesheets/style.css' />
@@ -8,21 +8,15 @@
         <button type="submit">메인 메뉴</button>
       </form>
 
-      <ol>
+      <ul>
           <% for(let i = 0; i < week_arr.length; i++){%>
             <li>
-              <%= week_arr[i] %> 
+              <%= week_arr[i] %> 회차 당첨 번호 : <span><%= Choiced_Number[i] %></span>
             </li>
             <%}%>
-      </ol>
-      <ol>
-          <% for(let i = 0; i < Choiced_Number; i++){%>
-            <li>
-              <%= Choiced_Number[i].number %>
-            </li>
-            <%}%>
-      </ol>
+      </ul>
 
-    <!-- <iframe src="./toto.ejs" frameborder="0"></iframe> -->
+      <script>
+      </script>
   </body>
 </html>
