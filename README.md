@@ -1,5 +1,3 @@
-# hanlight_TechCourse
-
 ## 네이버 실시간 검색어 및 복권 통계 크롤링
 
 ### visual studio code
